@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test thread-count="5" name="AmazonTest">
+    <classes>
+      <class name="testNGXML.Amazon"/>
+     </classes>
+  </test> <!-- Test -->
+    <test thread-count="5" name="FBTest">
+    <classes>
+      <class name="testNGXML.FB"/>
+     </classes>
+  </test>
+    <test thread-count="5" name="AjioTest">
+    <classes>
+      <class name="testNGXML.Ajio"/>
+     </classes>
+  </test>
+</suite> <!-- Suite -->
